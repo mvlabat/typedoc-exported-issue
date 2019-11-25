@@ -1,0 +1,17 @@
+{
+  "name": "typedoc-exported-issue",
+  "version":  "0.1.0",
+  "scripts": {
+    "docs:normal": "yarn run typedoc --out \"./docs/normal\"",
+    "docs:only-exported": "yarn run typedoc --excludeNotExported --out \"./docs/only-exported\""
+  },
+  "files": [
+    "lib"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typedoc": "^0.15.0",
+    "typescript": "^3.6.3"
+  }
+}
