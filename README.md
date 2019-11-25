@@ -7,7 +7,7 @@ yarn docs:only-exported
 ```
 
 Running these two commands generates documentation in `docs/normal` and
-`only-exported`.
+`docs/only-exported`.
 
 [src/testDefault1.ts](src/testDefault1.ts):
 ```typescript
